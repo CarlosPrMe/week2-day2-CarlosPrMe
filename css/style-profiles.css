@@ -1,0 +1,47 @@
+*{
+    box-sizing: content-box;
+}
+
+.container{
+    
+}
+
+.item{
+    width: 242px;
+    height: 242px;
+    border: 1px solid red;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item__media__container{
+    border-radius: 100%;
+    border: 30px solid #f8f8f8;
+}
+
+.item__media{
+    border-radius: 100%;
+}
+
+.item__nombre{
+    width: 80%;
+    
+}
+
+.item__name{
+    font-size: 16px;
+    color: #5b6b82;
+    display:inline-block;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    /* transform: translate(0, -30px); */
+}
+
+.container:hover{
+
+}
